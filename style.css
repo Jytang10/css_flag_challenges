@@ -61,3 +61,115 @@ body{
   background-color: lightsalmon;
   width: 100%;
 }
+
+.france-flag{
+  font-size: 0;
+  height: 50vmin;
+  width: 100vmin;
+}
+
+.france-left{
+  background-color: darkblue;
+  height: 100%;
+  width: 33%;
+  display: inline-block;
+}
+
+.france-middle{
+  background-color: white;
+  height: 100%;
+  width: 33%;
+  display: inline-block;
+}
+
+.france-right{
+  background-color: darkred;
+  height: 100%;
+  width: 33%;
+  display: inline-block;
+}
+
+.benin-flag{
+  font-size: 0;
+  height: 50vmin;
+  width: 100vmin;
+  display: float;
+}
+
+.benin-left{
+  background-color: rgb(59, 128, 59);
+  width: 33%;
+  height: 100%;
+  display: inline-block;
+}
+
+.benin-right{
+  width: 66%;
+  height: 100%;
+  display: inline-block;
+}
+
+.benin-right-top{
+  height: 50%;
+  background-color: gold;
+}
+
+.benin-right-bottom{
+  height: 50%;
+  background-color: rgb(177, 38, 14);
+}
+
+.sweden-flag{
+  height: 50vmin;
+  width: 100vmin;
+  background-color: rgb(31, 90, 168);
+  position: relative;
+}
+
+.sweden-flag div{
+  position: absolute;
+  background-color: gold;
+}
+
+.sweden-vertical-stripe{
+  height: 100%;
+  width: 10%;
+  transform: translateX(200%);
+}
+
+.sweden-horizontal-stripe{
+  height: 20%;
+  width: 100%;
+  transform: translateY(200%);
+}
+
+.switzerland-flag{
+  height: 50vmin;
+  width: 50vmin;
+  background-color: red;
+  padding: 5%;
+  box-sizing: border-box;
+}
+
+.switzerland-cross-container{
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.switzerland-cross-container div{
+  position: absolute;
+  background-color: white;
+}
+
+.switzerland-vertical-stripe{
+  height: 100%;
+  width: 20%;
+  transform: translateX(200%);
+}
+
+.switzerland-horizontal-stripe{
+  height: 20%;
+  width: 100%;
+  transform: translateY(200%);
+}
