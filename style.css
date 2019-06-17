@@ -164,12 +164,96 @@ body{
 
 .switzerland-vertical-stripe{
   height: 100%;
-  width: 20%;
-  transform: translateX(200%);
+  width: 30%;
+  transform: translateX(115%);
 }
 
 .switzerland-horizontal-stripe{
-  height: 20%;
+  height: 30%;
   width: 100%;
-  transform: translateY(200%);
+  transform: translateY(115%);
+}
+
+.tonga-flag{
+  height: 50vmin;
+  width: 100vmin;
+  background-color: rgb(138, 37, 37);
+}
+
+.tonga-white-section{
+  width: 35%;
+  height: 50%;
+  padding: 5% 10%;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.tonga-cross-container{
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.tonga-cross-container div{
+  position: absolute;
+  background-color: rgb(138, 37, 37);
+}
+
+.tonga-vertical-stripe{
+  height: 100%;
+  width: 30%;
+  transform: translateX(115%);
+}
+
+.tonga-horizontal-stripe{
+  height: 30%;
+  width: 100%;
+  transform: translateY(115%);
+}
+
+.japan-flag{
+  display: flex;
+  height: 50vmin;
+  width: 85vmin;
+  background-color: white;
+  position: relative;
+}
+
+.japan-child{
+  background-color: red;
+  border-radius: 50%;
+  margin: auto; 
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-55%,-50%);
+  height: 55%;
+  width: 35%;
+}
+
+.canada-flag{
+  font-size: 0;
+  height: 50vmin;
+  width: 100vmin;
+}
+
+.canada-left{
+  background-color: rgb(163, 25, 25);
+  height: 100%;
+  width: 25%;
+  display: inline-block;
+}
+
+.canada-middle{
+  background-color: white;
+  height: 100%;
+  width: 50%;
+  display: inline-block;
+}
+
+.canada-right{
+  background-color: rgb(163, 25, 25);;
+  height: 100%;
+  width: 25%;
+  display: inline-block;
 }
