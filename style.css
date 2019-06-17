@@ -1,0 +1,63 @@
+body{
+  background-color: skyblue;
+}
+
+.indonesia-flag{
+  width: 180px;
+  height: 100px;
+}
+
+.indonesia-top{
+  background-color: red;
+  height: 50px;
+}
+
+.indonesia-bottom{
+  background-color: white;
+  height: 50px;
+}
+
+.colombia-flag{
+  height: 50vmin;
+  width: 100vmin;
+}
+
+.colombia-top{
+  height: 50%;
+  background-color: gold;
+}
+
+.colombia-bottom{
+  height: 50%;
+}
+
+.colombia-bottom-top{
+  height: 50%;
+  background-color: blue;
+}
+
+.colombia-bottom-bottom{
+  height: 50%;
+  background-color: darkred;
+}
+
+.ireland-flag{
+  display: flex;
+  height: 50vmin;
+  width: 100vmin;
+}
+
+.ireland-left{
+  background-color: mediumaquamarine;
+  width: 100%;
+}
+
+.ireland-middle{
+  background-color: white;
+  width: 100%;
+}
+
+.ireland-right{
+  background-color: lightsalmon;
+  width: 100%;
+}
